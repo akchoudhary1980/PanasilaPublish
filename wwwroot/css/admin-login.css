@@ -1,0 +1,56 @@
+﻿.error, textarea.error, input.error {
+    color: #FF0000;
+    font-size: small;
+}
+
+.h20 {
+    height: 20%;
+}
+
+.h80 {
+    height: 80%;
+}
+
+.h10 {
+    height: 10%;
+}
+
+.h90 {
+    height: 90%;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-light-blue {
+    background-color: #87cefa;
+}
+
+.login-header {
+    background-color: #4682b4;
+    height: 100px;
+}
+
+.pic-side-footer {
+    background-color: #4682b4;
+    color: white;
+}
+
+.center {
+    text-align: center;
+    height: 100%;
+    margin-top: 10px;
+}
+
+    .center a {
+        text-decoration: none;
+        color: white;
+        text-decoration-style:solid;
+    }
+
+@media only screen and (max-width: 767px) {
+    .center {
+        margin-top: 0px;
+    }
+}

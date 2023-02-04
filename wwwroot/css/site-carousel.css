@@ -1,0 +1,15 @@
+﻿/* carousel button*/
+.carousel-control-prev {
+    background-color: #034694;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.carousel-control-next {
+    background-color: #034694;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+/* end */

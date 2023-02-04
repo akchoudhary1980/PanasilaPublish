@@ -1,0 +1,53 @@
+﻿:root {
+    --darkred: #FF004F;
+    --blue: #034694;
+    --lightblue: #4B9CD3;
+}
+
+#menubar {
+    background-color: var(--blue);
+    padding-bottom: 7px;
+}
+
+/* menu */
+.mainnav {    
+    background-color: var(--blue);
+}
+
+.mainnav > ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mainnav ul li {
+    position: relative;
+
+}
+
+.mainnav > ul > li {
+    display: inline-block;
+   
+}
+.mainnav > ul > li > a {
+        font-weight: 500;
+        color: white;
+        font-size: 16px;
+        list-style: none;
+        text-decoration: none;
+        line-height: 40px;
+        vertical-align:middle;       
+        display: block;      
+        padding:0px 7px 0px 7px;
+        margin:0px 0px 0px 5px;
+        transition: all 0.50s;
+    }
+
+    .mainnav > ul > li.active > a,
+    .mainnav > ul > li > a:hover {
+        /*color: black;*/
+        background-color: var(--lightblue);
+        border-radius: 0px;
+        /*border-bottom: 5px solid #BCD000;*/
+    }
